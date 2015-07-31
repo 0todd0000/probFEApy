@@ -1,2 +1,2 @@
 # probFEApy
-Probabilistic finite element analysis in Python.
+Probabilistic finite element analysis in Python
