@@ -2,9 +2,9 @@
 '''
 This script implements the "Model A" analyses from:
 
-	Pataky TC, Koseki M, Cox PG (in review) Probabilistic biomechanical
-	finite element simulations: whole-model statistical inferences based
-	on upcrossing geometry. PeerJ Computer Science.
+	Pataky TC, Koseki M, Cox PG (2016) Probabilistic biomechanical
+	finite element simulations: whole-model classical hypothesis testing
+	based on upcrossing geometry. PeerJ Computer Science. (in review)
 
 !!!NOTE!!!
 In order to run this script you must modify the "path2febio" variable on
@@ -12,7 +12,7 @@ Line 53 below.
 
 The main procedures implemented in this script include:
 	1. FEBio model file manipulation (material stiffness distribution)
-	2. Simulation (using the FEBio solver version 2.4)
+	2. Simulation (using the FEBio solver version 2.5)
 	3. FEBio results parsing
 	4. Non-parametric one-sample t test on the results
 	5. Results plotting
@@ -137,6 +137,7 @@ def simulate(fname0, E, fname1):
 	'''
 	write_model(fname0, E, fname1)
 	### simulate:
+	dir0      = os.path.split(fname0)[0]
 	os.chdir(dir0)
 	os.system('"%s" -i %s'%(path2febio, fnameFEB1))
 	### parse output:
