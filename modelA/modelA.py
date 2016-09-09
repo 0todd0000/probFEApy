@@ -20,7 +20,7 @@ The main procedures implemented in this script include:
 Software dependencies:
 	(other versions of the following packages should also work)
 	Non-Python software:
-		FEBio 2.4     (febio.org)
+		FEBio 2.5.0      (febio.org)
 
 	Python software:
 		Python 2.7       (python.org)
@@ -30,7 +30,7 @@ Software dependencies:
 
 This script runs in 1.3 seconds on:
      Mac OS X 10.11, 2.7 GHz 12-core Intel Xeon E5, 32 GB 1866 MHz DDR3 ECC
-It was also tested on Windows 7 32-bit
+It was also tested on Windows 7 (32-bit) with similar calculation speeds.
 
 Version 0.1   (2016.07.01)
 '''
@@ -48,7 +48,7 @@ from matplotlib import pyplot
 
 
 #---------------------------------------------------------------#
-### USER PARAMETERS ###
+### USER VARIABLES ###
 ### Specify the path to the FEBio binary executable:
 path2febio = '/Applications/febio/v2.5.0/bin/FEBio2'
 ### Default executable locations are:
