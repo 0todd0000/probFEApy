@@ -8,6 +8,8 @@ You can access the example problems as follows:
 - Log in to febio.org
 - From the menu bar select "FEBio" --> "FEBio Downloads".
 - Click on the "Example Problems" link under "Test Suites"
+*Note: we are unable to redistribute the FEB model file here
+due to license restrictions.
 
 
 2.  Add output requests to the FEB file as follows: 
