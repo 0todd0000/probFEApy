@@ -7,4 +7,4 @@ Pataky TC, Koseki M, Cox PG (2016)
 Probabilistic biomechanical finite element simulations:
 whole-model classical hypothesis testing based on upcrossing geometry.
 PeerJ Computer Science
-(*in review*)
+(*in press*)

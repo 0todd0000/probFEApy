@@ -4,7 +4,7 @@ This script implements the "Model A" analyses from:
 
 	Pataky TC, Koseki M, Cox PG (2016) Probabilistic biomechanical
 	finite element simulations: whole-model classical hypothesis testing
-	based on upcrossing geometry. PeerJ Computer Science. (in review)
+	based on upcrossing geometry. PeerJ Computer Science. (in press)
 
 !!!NOTE!!!
 In order to run this script you must modify the "path2febio" variable on
